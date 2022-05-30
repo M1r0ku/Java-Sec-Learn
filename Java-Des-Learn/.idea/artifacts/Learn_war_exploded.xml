@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Learn:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Learn_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Learn/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Learn" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../maven-repository/commons-io-2.4.jar" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.3" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
